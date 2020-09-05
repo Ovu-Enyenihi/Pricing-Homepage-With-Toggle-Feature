@@ -1,0 +1,82 @@
+body {
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+section {
+    height: 650px;
+}
+  
+.header {
+    text-align: center;
+}
+
+.toggle-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    padding-left: 20%;
+    padding-top: 4%;
+}
+
+.main-sec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: hsl(240, 39%, 95%);
+}
+
+.prices {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.box-1, .box-2, .box-3 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+
+.box-1:hover, .box-2:hover, .box-3:hover {
+    background-color: rgb(136, 170, 226);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.box-1:hover .prices, .box-2:hover .prices, .box-3:hover .prices {
+    color: hsl(0, 0%, 100%);
+}
+
+.box-1:hover .btn, .box-2:hover .btn, .box-3:hover .btn {
+    background-color: rgb(136, 170, 226);
+    color: hsl(0, 0%, 100%);
+    border: 1px solid white;
+}
+
+hr {
+    width: 85%;
+}
+
+.btn {
+    color: hsl(240, 67%, 70%);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid hsl(234, 14%, 74%);
+    border-radius: 5px;
+    width: 260px;
+    height: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+}
